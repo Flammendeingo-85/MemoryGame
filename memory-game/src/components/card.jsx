@@ -1,3 +1,5 @@
-export const card = ({emoji}) => {
-  return <div>{emoji}</div>;
+const Card = ({ emoji }) => {
+  return <div className="card">{emoji}</div>;
 };
+
+export default Card;
